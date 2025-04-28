@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>bookshow</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <nav>
+        <h1>bookshow</h1>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="book-container">
+        <h2>THE-BTS</h2>
+        <h5>SUGALS</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam beatae
+          sequi non ipsa recusandae reprehenderit commodi unde, officiis nisi
+          corrupti velit consectetur ipsum, omnis quisquam dignissimos porro sit
+          itaque sint.
+        </p>
+        <button id="dlt" onclick="del(event)">delete</button>
+      </div>
+    </div>
+
+    <button class="addbtn" id="btn-add">+</button>
+
+    <div class="popu-overlay"></div>
+    <div class="pop-box">
+      <h2>add book</h2>
+      <form action="">
+        <input type="text" placeholder="title" id="tito" />
+        <input type="text" placeholder="author" id="autho" />
+        <textarea placeholder="descripton" id="text0"></textarea>
+        <button id="add-book">add</button>
+        <button id="cancel-book">cancel</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
